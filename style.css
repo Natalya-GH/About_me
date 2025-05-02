@@ -1,0 +1,130 @@
+.employee-card {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  max-width: 600px;
+  padding: 25px 2px;
+  border-bottom: 1px solid #e0e0e0;
+  background: transparent;
+}
+
+.employee-photo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.employee-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.style-one {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 2px; 
+}
+
+.style-two {
+  font-size: 12px;
+  color: #666;
+  margin-top: 1px;  
+}
+
+.employee-contacts {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-me {
+  max-width: 600px;
+  padding: 10px 2px;
+  margin-top: 10px;
+}
+
+.about-me-content {
+  color: #333;
+  line-height: 1.1;
+  font-size: 14px;
+  margin: 0; /* Убирает отступы у абзаца */  
+  text-align: justify; /* Выравнивание по ширине */
+  text-align-last: left; /* Последняя строка выравнивается по левому краю */
+}
+
+.employee-table {
+  max-width: 600px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.employee-table table {
+  width: 100%;
+  border-radius: 5px; /* Скругление углов */
+ }
+
+.employee-table th, 
+.employee-table td {
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #2e8b57; /* Границы всех ячеек */
+}
+
+/* Заголовки */
+.employee-table th {
+  font-weight: bold;
+  color: #2e8b57;
+  background-color: transparent;
+}
+
+/* Контент ячеек */
+.employee-table td {
+  color: #333;
+  background-color: transparent;
+}
+
+.btn-one {
+  background: #2e8b57;
+  border: none;
+  color: white;
+  width: fit-content;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: block; /* делает элемент блочным */
+  margin: 0 auto; /* автоматические отступы слева/справа */
+}
+
+.form {
+  border: 1px solid black;
+  width: 500px;
+  height: fit-content;
+  padding: 30px 50px;
+  background: #fff;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+
+  align-items: center;
+}
+
+.btn {
+  background: #475b9c;
+  border: none;
+  color: white;
+  font-weight: bold;
+  width: fit-content;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.inp {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid gray;
+  width: 50%;
+}
