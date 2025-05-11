@@ -1,0 +1,192 @@
+.wrapper {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.employee-card {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  max-width: 600px;
+  padding: 25px 2px;
+  border-bottom: 1px solid #e0e0e0;
+  background: transparent;
+}
+
+.employee-photo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.employee-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.style-one {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 2px; 
+}
+
+.style-two {
+  font-size: 12px;
+  color: #666;
+  margin-top: 1px;   
+}
+
+.employee-contacts {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-me {
+  max-width: 600px;
+  padding: 10px 2px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.about-me-content {
+  color: #000000;
+  line-height: 1.1;
+  font-size: 14px;
+  margin: 0; /* Убирает отступы у абзаца */  
+  text-align: justify; /* Выравнивание по ширине */
+  text-align-last: left; /* Последняя строка выравнивается по левому краю */
+}
+
+.table-test {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 1px solid green;
+  border-radius: 5px;
+  margin-bottom: 40px;
+}
+
+.table-test__col-left {
+  border-right: 1px solid green;
+}
+.table-test__col-right {
+  border-left: 1px solid green;
+}
+
+.table-test__title{
+  text-align: center;
+  border-bottom: 1px solid green;
+  padding: 5px 0;
+  font-size: 14px;
+  color: green;
+  font-weight: bold;  
+}
+
+.table-test__content {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+}
+
+.table-test__content a {
+  color: green;
+  text-decoration: none;
+}
+
+ol, ul {
+  padding: 0;
+  margin: 0;
+}
+
+.box {
+  padding: 5px;
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 40px;  
+}
+
+.box1 {
+  flex-grow: 1;
+  border-radius: 5px;
+  transition: box-shadow 0.2s ease;
+}
+
+.box1:hover {
+  box-shadow: 0 4px 12px rgba(45, 107, 42, 0.5);
+}
+
+.box2 {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.box2 img {
+  width: 50px;
+  height: 50px;
+ }
+
+.box3 {
+  text-align: center;
+  padding: 5px 0;
+  font-size: 12px;
+}
+
+.cap {
+  background: #2e8b3a;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+
+.form {
+  max-width: 600px;
+  width: 100%;
+  height: fit-content;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.inp {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+}
+
+.textarea {
+  font-size: 14px;
+  min-height: 100px; /* Добавляем минимальную высоту */
+  resize: vertical; /* Разрешаем изменять высоту */
+  width: 100%;
+}
+
+
+.btn {
+  background: #2e8b3a;
+  border: none;
+  color: white;
+  width: fit-content;
+  font-size: 12px;
+  padding: 5px 20px;
+  border-radius: 5px;
+}
